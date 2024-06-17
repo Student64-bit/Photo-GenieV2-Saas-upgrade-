@@ -47,5 +47,5 @@ To support this functionality, I integrated DynamoDB into the architecture to st
 </p>
 
 
-### 5. Project Video Demo V2
+### Project Video Demo V2
 [View the video demo here](https://youtu.be/VjaLsgd4SuA).
