@@ -28,5 +28,24 @@ The application will leverage various AWS services to provide its functionality,
   <strong><small>Figure 1: Simple Architecture Diagram.</small></strong>
 </p>
 
-### 5. Project Video Demo
+## Updated Saas User points implementation and Highscores
+
+In the original Photo Genie project, the application simply told users what the image they submitted was. In version 2, I had the idea of transforming that base concept into an educational children's game. Instead of merely identifying the submitted photo, the application now instructs the user to take a photo of a specific object and then prompts them to answer a question about it. This exciting approach encourages children to take photos of objects around the house or outside, helping them learn through interactive quizzes. This also allowed me to set up a simple high scores function so users worldwide can see the amount of points other users have accumulated.
+
+To support this functionality, I integrated DynamoDB into the architecture to store user data and points. In version 3, I plan to add Amazon Cognito to provide login functionality for the application. Currently, users are prompted to input their name before submitting their photo, so their data can be stored in the database. Once the login functionality is implemented in version 3, this step will no longer be necessary, as user sessions will be linked to their login information.
+
+<p align="center">
+  <img src="https://i.imgur.com/FJyDnBd.png" alt="Architecture Diagram" width="80%" height="80%">
+  <br>
+  <strong><small>Figure 2: Users promoted with an object to take a photo of.</small></strong>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/85piamJ.png" alt="Architecture Diagram" width="80%" height="80%">
+  <br>
+  <strong><small>Figure 3: DynamoDB implementation.</small></strong>
+</p>
+
+
+### 5. Project Video Demo V2
 [View the video demo here](https://youtu.be/VjaLsgd4SuA).
