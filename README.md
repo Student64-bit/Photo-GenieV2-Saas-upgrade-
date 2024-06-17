@@ -14,7 +14,7 @@ The application will leverage various AWS services to provide its functionality,
 - **AWS Rekognition:** Identifies and labels user-submitted images.
 - **AWS CloudWatch:** Aids in troubleshooting and logging activities.
 - **AWS Cloud9:** Provides an integrated development environment (IDE) with multiple SDKs like Python, PHP, and more.
-- **(New in v2) AWS DynamoDB:** Serves as the backend database to store users' points within the game.
+- **AWS DynamoDB (New in v2) :** Serves as the backend database to store users' points within the game.
 
 ## Other Services Used
 
@@ -27,3 +27,6 @@ The application will leverage various AWS services to provide its functionality,
   <br>
   <strong><small>Figure 1: Simple Architecture Diagram.</small></strong>
 </p>
+
+### 5. Project Video Demo
+[View the video demo here](https://youtu.be/VjaLsgd4SuA).
